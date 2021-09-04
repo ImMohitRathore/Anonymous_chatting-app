@@ -5,7 +5,7 @@ import SocketIO from "socket.io-client";
 import Message from '../Message/Message';
 import ScrollToBottom from 'react-scroll-to-bottom';
 
-const ENDPOINT = "https://secretchatt.herokuapp.com/"
+const ENDPOINT = "http://localhost:5000/"
 
 
 
