@@ -1,0 +1,73 @@
+.mbox{
+   
+   padding: 0.5vmax;
+   margin: 2vmax;
+
+   border: 0.5vmax;
+   border-radius: 10px;
+   display: inline block;
+   width:50%;
+   
+   overflow: auto;
+   clear: both;
+
+
+}
+
+
+
+
+
+.right{
+    background-color: rgb(194, 63, 63);
+    float: right;
+
+   
+    
+
+}
+
+
+.left{
+    background-color: rgb(84, 143, 76);
+    float: left;
+
+}
+
+
+
+
+@media only screen and (max-width: 702px){
+
+.mbox p{
+font-size: 25px;
+
+
+}
+
+
+.mbox{
+    width:initial;
+}
+
+
+
+
+}
+
+@media only screen and (max-width: 553px){
+
+    .mbox p {
+        font-size: 20px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 326px){
+
+    .mbox p{
+        font-size: 17px;
+    }
+}
